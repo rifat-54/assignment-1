@@ -126,10 +126,51 @@ header{
 }
 
 .inspiration-description{
+    width: 80%;
+    
     font-size: 16px;
     font-weight: 400px;
     opacity: .7;
     color: rgb(13, 19, 33);
-    margin: 50px 0;
+    margin: 50px auto;
 }
-
+/* support */
+.support{
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+    height: 313px;
+    background-image: url(../assets/handshake.jpg);
+    align-items: center;
+   padding-top: 60px;
+   border-radius: 5px;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.support-description{
+    font-size: 16px;
+    opacity: .7;
+    font-weight: 400;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+}
+.support input{
+    width: 480px;
+    height: 42px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.support button{
+    width: 120px;
+    height: 42px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(13, 19, 33);
+}
