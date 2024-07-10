@@ -112,3 +112,24 @@ header{
     border-radius: 5px;
 }
 
+/* inspiraion */
+.inspiration{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    gap: 20px;
+}
+.inspiration-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+
+.inspiration-description{
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: .7;
+    color: rgb(13, 19, 33);
+    margin: 50px 0;
+}
+
